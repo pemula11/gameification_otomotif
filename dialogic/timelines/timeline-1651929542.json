@@ -1,0 +1,131 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Def",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "Def",
+			"text": "Sistem bahan bakar pada kendaraan bermotor diperlukan untuk mengatur jumlah bensin yang akan dimasukan kedalam intake manifold dengan volume yang ideal sesuai RPM mesin.\nCara kerja sistem bahan bakar ini, adalah dengan mengabutkan bensin ditengah hembusan udara yang menuju ruang bakar mesin didalam intake manifold. Sistem ini, menggunakan komponen karburator untuk mengabutkan bensin.\n"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "tanya"
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": " Yang termasuk di dalam sistem bahan bakar antara lain"
+		},
+		{
+			"choice": "Lanjut ke latihan",
+			"condition": ">=",
+			"definition": "1652095678-113",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"change_scene": "res://src/scene/chapter_1.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": "Tangki Bensin, Kran, Saringan, Selang Bensin",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "1. tangki bensin \nTangki bensin merupakan suatu alat untuk menyimpan persediaan bensin pada sepeda motor dan yang perlu diperhatikan ialah pada bagian dalamnya selalu bersih dan tidak bocor. Sehingga bila terdapan endapan kotoran berupa Lumpur atau air maka tangki harus dikuras dan dibersihkan. Hal ini dimaksud agar tidak mengganggu aliran jalannya bensin.\n2. Kran Bensin\nKran bensin berguna untuk mengatur aliran bensin dari tangki ke karburator,biasanya di bagian kran bensin terdapat juga mangkokan tempat mengendapnya kotoran atau air. Yang tentunya menjaga agar endapan tersebut tidak sampai masuk ke dalam ruang bakar.\n3. Saringan Bensin\nSaringan bensin ini dibutuhkan untuk menyaring kotoran yang terdapat pada bensin, debu dan sebagainya. Dan bagian ini biasanya dipasang pada selang bensin.\n4. Selang Bensin\nBiasanya terbuat dari karet tahan panas atau plastic dan merupakan penghubung bensin dari kran bensin ke karburator.\n"
+		},
+		{
+			"definition": "1652095678-113",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "KARBURATOR",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Adalah unit yang terpasang pada sepeda motor yang salah satu fungsinya untuk menyemprotkan bahan bakar ke ruang bakar. \nNamun seiring perkembangan teknologi fungsi ini digantikan oleh injector pada sistim EFI.\nFungsi karburator adalah :\n1. Merubah bahan bakar cair menjadi gas/kabut\n2. Mencampur bensin dan udara dengan perbandingan yang tepat sesuai kebutuhan mesin\n3. Menyuplai campuran bahan bakar + udara ke dalam ruang bakar\n"
+		},
+		{
+			"definition": "1652095678-113",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "saringan udara",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sesuai dengan namanya, filter udara memiliki fungsi untuk menyaring udara yang masuk ke dalam ruang bakar.\n Udara yang digunakan dalam proses pembakaran harus benar-benar bersih sehingga tidak menyumbat sistem injeksi atau karburator. Oleh karena itulah filter udara tidak boleh dilepas dari mesin mobil atau motor.\nSaringan udara yang kotor menyebabkan : [br] - Saluran - saluran karburator tersumbat [br] -  Piston dan silinder akan lebih cepat aus"
+		},
+		{
+			"definition": "1652095678-113",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1651929542.json",
+		"name": "bahan_bakar"
+	}
+}

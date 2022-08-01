@@ -1,0 +1,53 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "Wulan",
+	"display_name_bool": true,
+	"id": "character-1650611800.json",
+	"mirror_portraits": false,
+	"name": "Wulan.json",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 30,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "Def",
+			"path": "res://asset/chara/Q9Y711ZQNJORVOKM (online-video-cutter.com)_002.png"
+		},
+		{
+			"name": "explain2",
+			"path": "res://asset/chara/Q9Y711ZQNJORVOKM (online-video-cutter.com)_036.png"
+		},
+		{
+			"name": "explain",
+			"path": "res://asset/chara/Q9Y711ZQNJORVOKM (online-video-cutter.com)_038.png"
+		},
+		{
+			"name": "know",
+			"path": "res://asset/chara/Q9Y711ZQNJORVOKM (online-video-cutter.com)_044.png"
+		},
+		{
+			"name": "thinking",
+			"path": "res://asset/chara/Q9Y711ZQNJORVOKM (online-video-cutter.com)_064.png"
+		},
+		{
+			"name": "win",
+			"path": "res://asset/chara/Q9Y711ZQNJORVOKM (online-video-cutter.com)_088.png"
+		},
+		{
+			"name": "Q9Y711ZQNJORVOKM (online-video-cutter",
+			"path": "res://asset/chara/Q9Y711ZQNJORVOKM (online-video-cutter.com)_097.png"
+		},
+		{
+			"name": "[removal",
+			"path": "res://asset/chara/[removal.ai]_tmp-626260b77ad0d.png"
+		}
+	],
+	"scale": 99,
+	"theme": "theme-1650611407.cfg"
+}

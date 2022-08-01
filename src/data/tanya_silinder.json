@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Pertanyaan 1",
+        "text" : "Fungsi utama katup pada mesin 4 yaitu",
+        "option" : [
+            {"text" : "sebagai tempat pengapian mesin sepeda motor","jawaban" : ""},
+            {"text" : "sebuah penghubung untuk memisahkan dua ruang yakni ruang bakar dan udara luar", "jawaban" : "benar"},
+            {"text" : "suatu alat untuk menyimpan persediaan bensin pada sepeda motor ","jawaban" : ""},
+            {"text" : "menyemprotkan bahan bakar ke ruang bakar mesin","jawaban" : ""}
+                    ]
+    },
+    {
+        "name" : "Pertanyaan 2",
+        "text" : "Jenis sistim pemasukan pada mesin 2 tak adalah berikut. KECUALI  ",
+        "option" : [
+            {"text" : "piston valve","jawaban" : ""},
+            {"text" : "rotary valve","jawaban" : ""},
+            {"text" : "ration valve", "jawaban" : "benar"},
+            {"text" : "reed valve","jawaban" : ""}
+                    ]
+    },
+    {
+        "name" : "Pertanyaan 3",
+        "text" : "tugas kepala silinder adalah ",
+        "option" : [
+            {"text" : "menimbulkan atau menahan kompresi", "jawaban" : "benar"},
+            {"text" : "mensuplai listrik tegangan tinggi dari busi","jawaban" : ""},
+            {"text" : "aliran bensin dari tangki ke karburator","jawaban" : ""},
+            {"text" : "menghidupkan mesin motor","jawaban" : ""}
+                    ]
+    }
+]

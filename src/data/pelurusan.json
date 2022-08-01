@@ -1,0 +1,52 @@
+[
+    {
+        "name"  : "chamber",
+        "text"  : "Sudut Camber adalah sudut yang dibentuk oleh roda kendaraan yaitu sudut antara sumbu vertikal roda yang digunakan untuk kemudi dengan sumbu vertikal kendaraan bila dilihat dari depan atau belakang.        ",
+        "image" : "chamber.PNG"
+        
+    },
+    {
+        "name"  : "chamber",
+        "text"  : "Perubahan sudut camber yang berlebihan dapat menyebabkan peningkatan keausan ban dan kenyamanan pengemudian",
+        "image" : ""
+        
+    },
+    {
+        "name"  : "caster",
+        "text"  : "Sudut caster merupakan sudut yang dibentuk dari sumbu vertikal roda dengan sumbu putar kemudi pada mobil, sepeda motor, dan sepeda.",
+        "image" : "caster.PNG"
+        
+    },
+    {
+        "name"  : "kingpin",
+        "text"  : "adalah  Kemiringan sumbu king – pin (Steering axis) terhadap garis vertikal jika dilihat dari depan kendaraan. Pada Wheel alignment sudut king pin merupakan sudut analisa , jadi bukan sudut utama dari sistem wheel alignment.",
+        "image" : "kingpon.PNG"
+        
+    },
+    {
+        "name"  : "kingpin",
+        "text"  : "Oleh karena itu pada sudut king pin tidak ada penyetelan dan tidak diperbolehkan merubah sudut king pin.",
+        "image" : ""
+        
+    },
+    {
+        "name"  : "toe",
+        "text"  : "Selisih jarak antara roda bagian depan dengan roda bagian belakang jika dilihat dari atas kendaraan, atau kemiringan sikap roda terhadap garis memanjang kendaraan ( geometric centerline ) jika dilihat dari atas kendaraa. ",
+        "image" : "toe.PNG"
+        
+    },
+    {
+        "name"  : "toe",
+        "text"  : "hampir semua kendaraan roda empat atau lebih mempunyai Toe dan hampir semuanya bisa dilakukan penyelarasan atau penyetelan. ",
+        "image" : "toe.PNG"
+        
+    },
+    {
+        "name"  : "Radius belokan",
+        "text"  : "adalah sudut belokan dari roda-roda kanan dan kiri depan saat menikung. Dengan memberikan sudut belokan kanan dan kiri yang berbeda  akan mencocokkan pusat dari belokan untuk keempat rodanya dan menambah kestabilan pengendaraan selama menikung.",
+        "image" : "turningradius.PNG"
+        
+    }
+    
+
+]

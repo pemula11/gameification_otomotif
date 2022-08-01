@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Pertanyaan 1",
+        "text" : "Satuan tegangan dinamakan",
+        "option" : [
+            {"text" : "ampere","jawaban" : ""},
+            {"text" : "volt", "jawaban" : "benar"},
+            {"text" : "insentity","jawaban" : ""},
+            {"text" : "ohm","jawaban" : ""}
+                    ]
+    },
+    {
+        "name" : "Pertanyaan 2",
+        "text" : " Arus yang mengalir pada setiap tahanan sama, merupakan karakteristik dari rangkaian",
+        "option" : [
+            {"text" : "seri", "jawaban" : "benar"},
+            {"text" : "paralel","jawaban" : ""},
+            {"text" : "gabungan","jawaban" : ""},
+            {"text" : "seri paralel","jawaban" : ""}
+                    ]
+    },
+    {
+        "name" : "pertanyaan 3",
+        "text" : " merupakan sambungan dari beberapa komponen kelistrikan adalah",
+        "option" : [
+            {"text" : "tegangan","jawaban" : ""},
+            {"text" : "arus","jawaban" : ""},
+            {"text" : "sirkuit", "jawaban" : "benar"},
+            {"text" : "tahanan","jawaban" : ""}
+                    ]
+    }
+]

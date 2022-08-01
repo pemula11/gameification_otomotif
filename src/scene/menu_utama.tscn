@@ -1,0 +1,173 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://asset/font/title.tres" type="Theme" id=1]
+[ext_resource path="res://asset/UI/Sky.png" type="Texture" id=2]
+[ext_resource path="res://asset/UI/Land 2.png" type="Texture" id=3]
+[ext_resource path="res://src/UI/basebutton.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/scene/menu_utama.gd" type="Script" id=5]
+[ext_resource path="res://asset/UI/Stars.png" type="Texture" id=6]
+[ext_resource path="res://src/UI/SettingPanel.tscn" type="PackedScene" id=7]
+[ext_resource path="res://src/UI/CreditPanel.tscn" type="PackedScene" id=8]
+[ext_resource path="res://src/scene/chapter_1.tscn" type="PackedScene" id=9]
+
+[sub_resource type="Animation" id=1]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Backgroun/ParallaxLayer2/TextureRect2:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 8, 3 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "background_pharalax"
+length = 3.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Backgroun/ParallaxLayer2/TextureRect2:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 3 ), Vector2( -1014, 3 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "ready"
+
+[node name="menu_utama" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 5 )
+settings = NodePath("SettingPanel")
+credit = NodePath("CreditPanel")
+tujuanStage = ExtResource( 9 )
+
+[node name="Backgroun" type="ParallaxBackground" parent="."]
+
+[node name="backgrod" type="TextureRect" parent="Backgroun"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="Backgroun"]
+motion_mirroring = Vector2( 1014, 0 )
+
+[node name="TextureRect2" type="TextureRect" parent="Backgroun/ParallaxLayer2"]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 1022.0
+margin_bottom = 596.0
+texture = ExtResource( 3 )
+expand = true
+
+[node name="TextureRect3" type="TextureRect" parent="Backgroun"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 1.0
+margin_right = 5.0
+margin_bottom = 1.0
+texture = ExtResource( 6 )
+expand = true
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -156.0
+margin_top = 59.0
+margin_right = 169.0
+margin_bottom = 138.0
+theme = ExtResource( 1 )
+text = "GAME EDUKATIF"
+align = 1
+valign = 1
+
+[node name="Label2" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -280.0
+margin_top = 139.0
+margin_right = 298.0
+margin_bottom = 227.0
+theme = ExtResource( 1 )
+text = "BELAJAR MATERi OTOMOTIF "
+align = 1
+valign = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -183.0
+margin_top = -62.0
+margin_right = 197.0
+margin_bottom = 237.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Button" parent="VBoxContainer" instance=ExtResource( 4 )]
+margin_right = 380.0
+
+[node name="Button2" parent="VBoxContainer" instance=ExtResource( 4 )]
+margin_top = 74.0
+margin_right = 380.0
+margin_bottom = 144.0
+text = "OPTION"
+
+[node name="Button3" parent="VBoxContainer" instance=ExtResource( 4 )]
+margin_top = 148.0
+margin_right = 380.0
+margin_bottom = 218.0
+text = "CREDIT"
+
+[node name="Button4" parent="VBoxContainer" instance=ExtResource( 4 )]
+margin_top = 222.0
+margin_right = 380.0
+margin_bottom = 292.0
+text = "EXIT"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "background_pharalax"
+anims/RESET = SubResource( 1 )
+anims/background_pharalax = SubResource( 2 )
+anims/ready = SubResource( 3 )
+
+[node name="SettingPanel" parent="." instance=ExtResource( 7 )]
+visible = false
+margin_left = 203.0
+margin_top = 86.0
+margin_right = 824.0
+margin_bottom = 539.0
+
+[node name="CreditPanel" parent="." instance=ExtResource( 8 )]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -310.5
+margin_top = -226.5
+margin_right = 310.5
+margin_bottom = 226.5
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_levelBTN_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_Option_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button3" to="." method="_on_credit_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button4" to="." method="_on_exit_pressed"]

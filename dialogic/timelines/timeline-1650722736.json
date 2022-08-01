@@ -1,0 +1,39 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Apa itu K3"
+		},
+		{
+			"choice": " bidang terkait kesehatan, keselamatan dalam bidang pekerjaan",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "merupakan upaya Kebersihan, keamanan dan keindahan dalam lingkungan alam",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1650722736.json",
+		"name": "K3Pertanyaan"
+	}
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Pertanyaan 1",
+        "text" : "berguna untuk mengatur aliran bensin dari tangki ke karburator, biasanya di bagian kran bensin terdapat juga mangkokan tempat mengendapnya kotoran atau air. ",
+        "option" : [
+            {"text" : "kran bensin","jawaban" : "benar"},
+            {"text" : "tangki bensin", "jawaban" : ""},
+            {"text" : "karburator","jawaban" : ""},
+            {"text" : "selang bensin","jawaban" : ""}
+                    ]
+    },
+    {
+        "name" : "Pertanyaan 2",
+        "text" : "yang BUKAN Fungsi karburator adalah ",
+        "option" : [
+            {"text" : "Merubah bahan bakar cair menjadi gas/kabut","jawaban" : ""},
+            {"text" : "suatu alat untuk menyimpan persediaan", "jawaban" : "benar"},
+            {"text" : "Mencampur bensin dan udara dengan perbandingan yang tepat sesuai kebutuhan mesin","jawaban" : ""},
+            {"text" : "Menyuplai campuran bahan bakar + udara ke dalam ruang bakar","jawaban" : ""}
+                    ]
+    },
+    {
+        "name" : "Pertanyaan 3",
+        "text" : " Saringan udara yang kotor menyebabkan ",
+        "option" : [
+            {"text" : "kerusakan pada mesin","jawaban" : ""},
+            {"text" : "Saluran - saluran karburator tersumbat", "jawaban" : "benar"},
+            {"text" : "ban bocor","jawaban" : ""},
+            {"text" : "kendaraan tidak bergerak","jawaban" : ""}
+                    ]
+    }
+]

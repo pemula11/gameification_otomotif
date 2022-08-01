@@ -1,0 +1,47 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://asset/sound/SOUND CHALLENGE GAMES/TWOES_SOUND1 play sound.mp3" type="AudioStream" id=1]
+[ext_resource path="res://asset/sound/sfx/Menu_Sounds_Error.wav" type="AudioStream" id=2]
+[ext_resource path="res://asset/sound/SOUND CHALLENGE GAMES/TWOES_SOUND6 Klik.mp3" type="AudioStream" id=3]
+[ext_resource path="res://src/autoload/soundManager.gd" type="Script" id=4]
+[ext_resource path="res://asset/sound/SOUND CHALLENGE GAMES/TWOES_SOUND3 Benar.mp3" type="AudioStream" id=5]
+[ext_resource path="res://asset/sound/bg/Music_OrientalParty.mp3" type="AudioStream" id=6]
+[ext_resource path="res://asset/sound/sfx/back_style_2_002.ogg" type="AudioStream" id=7]
+[ext_resource path="res://asset/sound/bg/Music_EuropaIce.mp3" type="AudioStream" id=8]
+
+[node name="soundManager" type="Node2D"]
+script = ExtResource( 4 )
+background_menu = NodePath("background_home")
+background_explain = NodePath("background_explain")
+klik_sfx = NodePath("klik")
+back_sfx = NodePath("back")
+salah_sfx = NodePath("salah")
+benar_sfx = NodePath("benar")
+
+[node name="background_home" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+bus = "background"
+
+[node name="background_explain" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 8 )
+bus = "background"
+
+[node name="background_explain2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+bus = "background"
+
+[node name="benar" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+bus = "sfx"
+
+[node name="klik" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+bus = "sfx"
+
+[node name="back" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+bus = "sfx"
+
+[node name="salah" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+bus = "sfx"

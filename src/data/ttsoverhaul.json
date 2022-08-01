@@ -1,0 +1,13 @@
+
+   { "datar" :  
+    [ {"pertanyaan" : "bahan bakar minyak pada sepeda motor", "jawaban" : "bensin"},
+    {"pertanyaan" : "nama lain katup", "jawaban" : "valve"},
+    {"pertanyaan" : "alat yang berfungsi mencampur udara dan bahan bakar untuk sebuah mesin dalam", "jawaban" : "karburator"} ],
+  "turun" : 
+  [ {"pertanyaan" : "versi pengganti dari karburator", "jawaban" : "injector"},
+   {"pertanyaan" : "mengatur aliran bensin dari tangki ke karburator", "jawaban" : "kran"},
+   {"pertanyaan" : "komponen pada silinder yang berupa sumbu geser", "jawaban" : "piston"} ]
+   }
+
+
+

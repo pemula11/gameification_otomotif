@@ -1,0 +1,40 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://asset/UI/PNG/Button01.png" type="Texture" id=1]
+[ext_resource path="res://asset/UI/PNG/Button09.png" type="Texture" id=2]
+[ext_resource path="res://asset/UI/PNG/Button11.png" type="Texture" id=3]
+[ext_resource path="res://src/UI/BTNStage.gd" type="Script" id=4]
+[ext_resource path="res://asset/font/Lambda-Regular.ttf" type="DynamicFontData" id=5]
+
+[sub_resource type="DynamicFont" id=5]
+size = 14
+extra_spacing_char = 1
+extra_spacing_space = 1
+font_data = ExtResource( 5 )
+
+[sub_resource type="Theme" id=6]
+default_font = SubResource( 5 )
+
+[sub_resource type="StyleBoxTexture" id=2]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 105, 21 )
+
+[sub_resource type="StyleBoxTexture" id=3]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 71, 46 )
+
+[sub_resource type="StyleBoxTexture" id=4]
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 152, 40 )
+
+[node name="BTNStage" type="Button"]
+margin_right = 119.0
+margin_bottom = 33.0
+rect_min_size = Vector2( 120, 30 )
+theme = SubResource( 6 )
+custom_styles/hover = SubResource( 2 )
+custom_styles/disabled = SubResource( 3 )
+custom_styles/normal = SubResource( 4 )
+script = ExtResource( 4 )
+
+[connection signal="pressed" from="." to="." method="_on_BTNStage_pressed"]

@@ -1,0 +1,22 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://asset/UI/PNG/Button11.png" type="Texture" id=1]
+[ext_resource path="res://asset/UI/PNG/Button12.png" type="Texture" id=2]
+[ext_resource path="res://asset/font/ui_theme.tres" type="Theme" id=3]
+
+[sub_resource type="StyleBoxTexture" id=1]
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 105, 21 )
+
+[sub_resource type="StyleBoxTexture" id=2]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 105, 21 )
+
+[node name="BB_option" type="Button"]
+margin_right = 300.0
+margin_bottom = 108.0
+rect_min_size = Vector2( 300, 100 )
+theme = ExtResource( 3 )
+custom_styles/pressed = SubResource( 1 )
+custom_styles/normal = SubResource( 2 )
+text = "NOMOR 1"

@@ -1,0 +1,36 @@
+[
+    {
+        "name" : "Pertanyaan 1",
+        "text" : "yang bukan faktor mempengaruhi kesehatan keselamatan kerja",
+        "option" : [
+            {"text" : "Beban Kerja","jawaban" : ""},
+            {"text" : "Kapasitas Kerja","jawaban" : ""},
+            {"text" : "Lingkungan Kerja","jawaban" : ""},
+            {"text" : "rekan kerja", "jawaban" : "benar"}
+            
+                    ]
+    },
+    {
+        "name" : "pertanyaan 2",
+        "text" : "tujuan dari penerapan K3 adalah",
+        "option" : [
+            {"text" : "Menciptakan sistem kerja yang aman (safe work system)","jawaban" : "benar"},
+            {"text" : "membuat para pekerja menjadi bekerja lebih ekstra","jawaban" : ""},
+            {"text" : "Menciptakan sistem kerja yang bahaya","jawaban" : ""},
+            {"text" : "mengurangi biaya produksi perusahaan", "jawaban" : ""}
+            
+                    ]
+    },
+    {
+        "name" : "Pertanyaan 3",
+        "text" : " berupa beban fisik, mental dan sosial. Sehingga usaha menempatkan kerja yang sesuai dengan kemampuan harus diperhatikan, merupakan pengertian faktor dari",
+        "option" : [
+            {"text" : "Beban Kerja","jawaban" : "benar"},
+            {"text" : "Kapasitas Kerja","jawaban" : ""},
+            {"text" : "Lingkungan Kerja","jawaban" : ""},
+            {"text" : "rekan kerja", "jawaban" : ""}
+            
+                    ]
+    }
+
+]

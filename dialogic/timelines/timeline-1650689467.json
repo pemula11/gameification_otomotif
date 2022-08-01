@@ -1,0 +1,147 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Def",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "know",
+			"text": "Halo, Perkenalkan aku Wulan"
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "Def",
+			"text": "Disini aku akan memandu kalian belajar yang asik menggunakan sistem Game Edukatif"
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "thinking",
+			"text": "hmm.. Apa saja yang bisa didapatkan dengan belajar menggunakan game edukatif ini?"
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain2",
+			"text": "Dengan belajar menggunakan sistem gamification ini, Tentu saja belajar akan lebih asik\nterlebih ilmu yang didapatkan lebih mudah dipahami."
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "thinking",
+			"text": "Nah bagaimana sistem pembelajaran dalam game edukatif ini?"
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain",
+			"text": "Dalam game edukatif ini kita akan mempelajari mengenai MATERI PEMBELAJARAN OTOMOTIF"
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "Def",
+			"text": "Permainan akan dibagi dalam beberapa Chapter. Untuk membuka Chapter berikutnya, Pemain diharuskan menyelesaikan semua stage"
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain2",
+			"text": "Dalam Setiap stage nya akan diberikan penjelasan materi beserta latihan soal. terdapat juga permainan yang berfungsi menguji pengetahuan pemain."
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "intropertanyaan"
+		},
+		{
+			"character": "character-1650718799.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Apakah Ada pertanyaan?"
+		},
+		{
+			"choice": "Apa Materi yang Akan Dipelajari?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain2",
+			"text": "Dalam game edukatif ini kita akan mempelajari mengenai MATERI PEMBELAJARAN OTOMOTIF"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "bagaimana cara membuka level selanjutnya?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain",
+			"text": "Permainan akan dibagi dalam beberapa Chapter. Untuk membuka Chapter berikutnya, Pemain diharuskan menyelesaikan semua stage"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Tidak ada",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "thinking",
+			"text": "Jika Sudah tidak ada pertanyaan, sepertinya pengenalannya sudah cukup, Untuk selanjutnya kita akan lanjut mengenai materi K3"
+		},
+		{
+			"change_scene": "res://src/scene/chapter_1.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1650689467.json",
+		"name": "Perkenalan"
+	}
+}

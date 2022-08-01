@@ -1,0 +1,44 @@
+{
+	"events": [
+		{
+			"character": "character-1650550717.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "halo dunia"
+		},
+		{
+			"character": "character-1650550717.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ini aku lorem, disini aku akan menjelaskan beberapa hal\n"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "apa pelajaran yang kamu pilih?"
+		},
+		{
+			"choice": "menghidupkan",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "memakai laptop",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1650535004.json",
+		"name": "timeline-1650535004"
+	}
+}

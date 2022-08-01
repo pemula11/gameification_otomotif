@@ -1,0 +1,174 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Def",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Halo, pada materi pertama ini saya akan menjelaskan mengenai apa itu K3(kesehatan, keselamatan kerja)"
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain2",
+			"text": "Kesehatan dan Keselamatan Kerja (K3) merupakan upaya kita untuk menciptakan lingkungan kerja yang sehat dan aman, \nsehingga dapat mengurangi probabilitas kecelakaan kerja /penyakit akibat kelalaian yang mengakibatkan demotivasi dan dan defisiensi produktivitas kerja.\n Menurut UU Pokok Kesehatan RI No. 9 Th. 1960 Bab I Pasal II ,Kesehatan Kerja adalah suatu kondisi Kesehatan yang bertujuan agar masyarakat pekerja memperoleh derajat Kesehatan setinggi-tingginya, \nbaik jasmani ,rohani maupun social, dengan usaha pencegahan dan pengobatan terhadap penyakit atau gangguan Kesehatan yang disebabkan oleh pekerjaan dan lingkungan kerja maupun penyakit umum."
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "pertanyaanK3"
+		},
+		{
+			"character": "character-1650718799.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "untuk lebih detailnya, Silahkan tanyakan jika ada yang masih bingung"
+		},
+		{
+			"choice": "Saya sudah paham, beri saya latihan soal",
+			"condition": ">=",
+			"definition": "1650689242-648",
+			"event_id": "dialogic_011",
+			"value": "4"
+		},
+		{
+			"change_scene": "res://src/scene/Chapter1/tanya_k3.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": "Apa itu K3?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "K3 adalah bidang yang terkait dengan kesehatan, keselamatan, dan kesejahteraan manusia yang bekerja di sebuah institusi maupun lokasi proyek supaya lebih teliti dalam mengerjakan proyek yang akan dikerjakan dalam K3."
+		},
+		{
+			"definition": "1650689242-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Tujuan dari K3 Apa saja?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain",
+			"text": " pertama, Menciptakan sistem kerja yang aman (safe work system) untuk melakukan suatu pekerjaan yang akan di kerjakan dan tidak akan mengakibatkan kecelakaan dalam bekerja.\nkedua, Menjamin tercapainya kesejahteraan (well-being) pada pekerja, property, lingkungannya dalam melaksanakan pekerjaannya dan akan menjadikan semuanya tetap damai saat akan bekerja."
+		},
+		{
+			"definition": "1650689242-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Manfaat dari penerapan K3",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "know",
+			"text": " manfaat dari Penerapan K3 tidak hanya berlaku bagi para pekerja di internal perusahaan, tetapi juga terkait dengan pengaruhnya terhadap lingkungan eksternal. Cakupannya pun cukup luas, meliputi kesehatan fisik dan mental, serta sosial. "
+		},
+		{
+			"definition": "1650689242-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Faktor yang mempengaruhi K3",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "know",
+			"text": "1. Beban Kerja\nBeban kerja berupa beban fisik, mental dan sosial. Sehingga usaha menempatkan kerja yang sesuai dengan kemampuan harus diperhatikan.\n2. Kapasitas Kerja\nKapasitas kerja yang banyak tergantung dari pendidikan, keterampilan, kesegaran jasmani, ukuran tubuh, keadaan gizi dan sebagainya\n3. Lingkungan Kerja\nLingkungan kerja adalah dalam bentuk fisik, kimia, biologik, ergonomik ataupun psikososial. Dengan lingkungan kerja yang nyaman, akan membuat pekerja juga dapat betah bekerja di perusahaan atau proyek tersebut."
+		},
+		{
+			"definition": "1650689242-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"emit_signal": "",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1650701573.json",
+		"name": "K3"
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"glossary": [
+		{
+			"extra": "",
+			"id": "1650617969-840",
+			"name": "New glossary entry",
+			"text": "",
+			"title": "",
+			"type": 1
+		}
+	],
+	"variables": [
+		{
+			"id": "1650689242-648",
+			"name": "k3",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650722715-141",
+			"name": "skor",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1651926301-648",
+			"name": "silinder",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1652095259-833",
+			"name": "pengapian",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1652095283-323",
+			"name": "kelistrikan",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1652095678-113",
+			"name": "bahanbakar",
+			"type": 0,
+			"value": ""
+		}
+	]
+}

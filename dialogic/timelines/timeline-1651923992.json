@@ -1,0 +1,145 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Def",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "know",
+			"text": "Pada kepala silinder terdapat busi, klep masuk (intake valve) dan buang (exhaust valve), serta camshaft (kem).\nSelain itu, pada kepala silinder juga terdapat bagian dari ruang bakar yang cukup penting. Salah satu tugas kepala silinder adalah menimbulkan atau menahan kompresi."
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain",
+			"text": "terdapat 2 jenis kepala silinder, yaitu kepala silinder 2 tak dan kepala silinde 4 tak.\nKepala silinder mesin 2 tak relatif sederhana, dan tidak memerlukan aturankhusus bila melakukan pembongkaran. \nsedangkan Kepala silinder mesin 4 tak relatif lebih rumit, dan memerlukan aturan bila akan melakukan pembongkaran, yaitu harus pada posisi ”Top Kompresi ”."
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "pertanyaan"
+		},
+		{
+			"character": "character-1650718799.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "untuk lebih jelasnya silahkan pilih pilihan ini "
+		},
+		{
+			"choice": "lanjut ke materi berikutnya",
+			"condition": ">",
+			"definition": "1651926301-648",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"change_scene": "res://src/scene/Chapter1/tanya_silinder.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": "perbedaan 2 tak dan 4 tak",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain2",
+			"text": "1.   Jumlah Komponen Mesin\nKomponen pada mesin dua tak lebih sedikit dibandingkan dengan mesin empat tak. Komponen mesin dua tak lebih sedikit karena tidak adanya klep in maupun klep out serta noken as.\n2.  Oli Yang Digunakan\nMesin motor empat tak hanya perlu menggunakan satu jenis oli saja, sedangkan mesin motor dua tak memerlukan oli samping sehingga tidak cukup hanya dengan menggunakan satu jenis oli saja.\nBukan tanpa alasan tentunya mengapa motor 2 tak membutuhkan oli pendamping.\n Hal ini karena  oli samping digunakan sebagai pelumas bagi komponen mesin seperti ring piston, kruk as, piston, serta bearing kruk as.\n3.   Hasil Pembakaran di Knalpot\nKarena membutuhkan pelumas, maka knalpot mesin 2 tak lebih ngebul atau banyak mengeluarkan asap karena oli samping ikut terbakar di ruang mesin dan dikeluarkan melalui knalpot. Sedangkan mesin 4 tak lebih ramah asap.\n4.   Jumlah Langkah Piston\nPerbedaan selanjutnya yaitu pada langkah piston. Seperti yang disebutkan sebelumnya, mesin dua tak pembakaran yang terjadi pada mesin hanya 2 langkah piston. \nNamun pada motor dengan mesin 4 tak maka dibutuhkan 4 langkah pembakaran dalam setiap piston."
+		},
+		{
+			"definition": "1651926301-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Kelebihan dan Kekurangan Mesin 4 Tak",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Kelebihan mesin 4 tak adalah sudah bisa digunakan tidak hanya di motor saja namun juga mobil, kapal darat, truk, sejenis alat berat, hingga pesawat.\n Hal ini berarti mesin dengan 4 tak terbukti mampu digunakan dalam berbagai model kendaraan dengan risiko kerusakan yang minim.\nMesin 4 tak memiliki pengaturan campuran pergerakan udara dengan bensin yang lebih mudah. Kemudahan ini terjadi karena motor 4 tak tidak menggunakan oli samping. Mesin 4 tak juga tidak menggunakan konstruksi yang rumit karena terbantu dengan sistem katup.\nKekurangan dari mesin 4 tak diantaranya adalah tenaga yang dihasilkan mesin 4 tak lebih kecil jika dibandingkan dengan mesin 2 tak. Jadi, untuk urusan kecepatan, mesin 4 tak tidak sama dengan mesin 2 tak."
+		},
+		{
+			"definition": "1651926301-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Kelebihan dan Kekurangan Mesin 2 Tak",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Kelebihan mesin 2 tak diantaranya adalah jumlah komponen mesin 2 tak lebih sedikit daripada mesin 4 tak.\n Artinya, dalam hal ini biaya produksi untuk motor dengan mesin 2 tak lebih murah dibandingkan biaya produksi motor dengan mesin 4 tak.\nTenaga yang dihasilkan mesin 2 tak lebih besar jika dibandingkan dengan mesin 4 tak. Sedangkan kekurangannya adalah mesin 2 tak membutuhkan oli tambahan.\n Mesin 2 tak lebih cepat panas karena lubang buang mesin 4 tak tidak berada di bagian silinder.\nKekurangan lainnya adalah pada motor 2 tak bahan bakar yang dikeluarkan lebih banyak sehingga lebih boros, sedangkan pada mesin 4 tak lebih hemat energi. "
+		},
+		{
+			"definition": "1651926301-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1651923992.json",
+		"name": "silinder"
+	}
+}

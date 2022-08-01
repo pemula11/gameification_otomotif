@@ -1,0 +1,183 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Def",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "thinking",
+			"text": "setelah mengetahui fungsi dasar dari sistem kelistrikan. kali ini kita akan mulai membahas bagaimana menguji kelistrikan pada sepeda motor. \npengetahuan yang diperlukan antara lain : A. Sistem beban\nSistem beban adalah  Semua komponen yang membutuhkan tegangan listrik dari sumber. Sistem beban pada sepeda motor terdiri dari :\n1. Rangkaian meter bensin [br] 2. Rangkaian lampu sein [br]  3. Rangkaian lampu depan – belakang [br]  4. Rangkaian klakson\n5. Rangkaian lampu rem [br]  6. Rangkaian indikator transmisi [br]  7. Rangkaian motor stater elektrik"
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain2",
+			"text": "Pada dasarnya semua rangkaian pada sistem beban mengambil tegangan dari accu, kecuali rangkaian lampu depan – belakang mengambil tegangan dari spull (generator). Pengecekan sebuah wiring kelistrikan pada dasarnya mencakup beberapa hal, yaitu :\n1. Kondisi sumber tegangan (bateray, spull) [br]  2. Kondisi sakelar [br]  3. Part beban (lampu, klakson, motor stater)\n4. Kondisi persambungan dengan massa (ground) [br]  5. Pengkabelan (kondisi persambungan kabel-kabel)"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1651851333",
+			"index": 0,
+			"name": "pemeriksaan-avo"
+		},
+		{
+			"character": "character-1650718799.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Pemeriksaan dengan menggunakan Avo Meter dapat dilakukan pada :"
+		},
+		{
+			"choice": "Lanjut ke latihan soal",
+			"condition": ">=",
+			"definition": "1652095283-323",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"change_scene": "res://src/scene/Chapter1/tanya_kelistrikan.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": " BATERAY / ACCU",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pemeriksaan Bateray dilakukan dengan 2 cara : \na. Memeriksa berat jenis air bateray\nDilakukan dengan menggunakan alat yang disebut hidro meter, dikatakan baikapabila bj air bateray menunjukkan 1,28\nb. Memeriksa tegangan bateray. Dilakukan menggunakan alat ukur Avo meter, dikatakan baik apabila tegangan terukur 12,5 V\nBila tidak terjadi demikian dilakukan langkah charge bateray, hal ini juga memberi informasi bahwa sistim pengisian dalam kondisi tidak baik (bahasan dalam uraian sistim pengisian ). \nDalam perawatan bateray apabila di kutub-kutub bateray terdapat endapan putih sulfat adalah dengan menyiram kutub tersebut dengan air panas."
+		},
+		{
+			"definition": "1652095283-323",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1651851333",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "SAKELAR KUNCI KONTAK",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Kunci kontak ada 2 macam, yaitu : [br]  1. Kunci kontak memiliki 2 kabel input – output (biasanya dipakai pada motor DC) [br]  2. Kunci kontak memiliki 4 kabel input – output (biasanya dipakai pada motor AC)"
+		},
+		{
+			"character": "character-1650718799.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Cara Pemeriksaan  terdapat 2 cara yaitu : "
+		},
+		{
+			"choice": "1. Kunci Kontak DC. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alat yang digunakan adalah Avometer, diposisikan dalam posisi satuan KΩ. Pada posisiini alat menunjukkan angka 1 (Avo digital). \nHubungkan dua kabel pada kunci kontak, putar kunci kontak ON (pada posisi ini AVO harus menunjukkan angka 0, bila tidak berarti kunci kontak tidak baik)"
+		},
+		{
+			"choice": "2. Kunci kontak AC",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Kunci kontak AC mempunyai 4 buah kabel . Pada posisi OFF hubungkan AVO dengan 2 kabel pada kunci kontak, dan AVO harus menunjuk angka 0 (berarti berfungsi baik pada posisi OFF).\n Putar kunci kontak pada posisi ON, hubungkan AVO dengan 2 kabel sisanya, AVO harus menunjuk angka 0 (berarti berfungsi pada posisi ON). Apapabila dipenuhi 2 kaidah di atas maka kunci kontak dalam kondisi baik."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1652095283-323",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1651851333",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "pengkabelan",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "kabel dicek dengan menggunakan alat AVO METER (digital,posisikan dalam 20 KΩ), jika AVO menunjuk angkan 0 : Kabel tidak putus, sedangkan jika AVO menunjuk angka 1 : Kabel putus"
+		},
+		{
+			"definition": "1652095283-323",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1651851333",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1651850388.json",
+		"name": "sistem_kelistrikan"
+	}
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Pertanyaan 1",
+        "text" : "spooring adalah ",
+        "option" : [
+            {"text" : " merupakan sambungan dari beberapa komponen kelistrikan","jawaban" : ""},
+            {"text" : "proses menyeimbangkan atau menyelaraskan roda-roda mobil dengan meluruskan ban depan dengan ban bagian belakang. ", "jawaban" : "benar"},
+            {"text" : "mengatur aliran bensin dari tangki ke karburator","jawaban" : ""},
+            {"text" : "proses menerima panas pembakaran, dan didinginkan oleh campuran gas yang mengalir masuk keruang bakar","jawaban" : ""}
+                    ]
+    },
+    {
+        "name" : "Pertanyaan 2",
+        "text" : "Yang BUKAN Keuntungan melakukan spooring antara lain",
+        "option" : [
+            {"text" : "Mencegah keausan ban yang tidak merata.","jawaban" : ""},
+            {"text" : "mobil menjadi stabil dan nyaman dalam berkendara.", "jawaban" : ""},
+            {"text" : "Mobil menjadi tidak stabil saat berjalan.","jawaban" : "benar"},
+            {"text" : "Mencegah kerusakan-kerusakan antar sambungan kemudi sehingga memperpanjang waktu pemakaian.","jawaban" : ""}
+                    ]
+    },
+    {
+        "name" : "Pertanyaan 3",
+        "text" : "dari pernyataan berikut, mana jawaban Jika tidak dilakukan spooring",
+        "option" : [
+            {"text" : "Dapat menyebabkan kerusakan kaki kaki,tie rod,long tie rod,ball joint.","jawaban" : "benar"},
+            {"text" : "Menghemat bahan bakar.", "jawaban" : ""},
+            {"text" : "Menghemat pemakaian ban","jawaban" : ""},
+            {"text" : "Mencegah kerusakan-kerusakan antar sambungan kemudi sehingga memperpanjang waktu pemakaian.","jawaban" : ""}
+                    ]
+    }
+]

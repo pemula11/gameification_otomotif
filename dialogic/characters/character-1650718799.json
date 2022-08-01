@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "Wulan",
+	"display_name_bool": true,
+	"id": "character-1650718799.json",
+	"mirror_portraits": false,
+	"name": "Wulan2",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": "theme-1650612270.cfg"
+}

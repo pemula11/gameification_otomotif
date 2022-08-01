@@ -1,0 +1,33 @@
+[
+    {
+        "name" : "Pertanyaan 1",
+        "text" : "chassis merupakan",
+        "option" : [
+            {"text" : "suatu alat yang dapat menghasilkan tegangan AC.","jawaban" : ""},
+            {"text" : "merupakan tempat pembakaran bahan bakar", "jawaban" : ""},
+            {"text" : "menyemprotkan bahan bakar ke ruang bakar.","jawaban" : ""},
+            {"text" : "rangka internal untuk menjadi dasar produksi objek yang kemudian disatukan dengan mesin serta alat elektronik lainnya","jawaban" : "benar"}
+                    ]
+    },
+    {
+        "name" : "Pertanyaan 2",
+        "text" : "chassis yang dibuat menyatu dengan bodi mobil, merupakan chassis jenis ",
+        "option" : [
+            {"text" : "Ladder Frame","jawaban" : ""},
+            {"text" : "Tubular Space Frame", "jawaban" : ""},
+            {"text" : "Monocoque Chassis","jawaban" : "benar"},
+            {"text" : "Aluminium Space Frame","jawaban" : ""}
+                    ]
+    },
+    {
+        "name" : "Pertanyaan 3",
+        "text" : "yang [color='red'] BUKAN Komponen [/color] dari chasis adalah ",
+        "option" : [
+            {"text" : "kepala silinder","jawaban" : "benar"},
+            {"text" : "Poros Propeller", "jawaban" : ""},
+            {"text" : "Kopling","jawaban" : ""},
+            {"text" : "Transmisi","jawaban" : ""}
+                    ]
+    }
+
+]

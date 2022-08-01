@@ -1,0 +1,70 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Def",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "Def",
+			"text": "Spooring adalah proses menyeimbangkan atau menyelaraskan roda-roda mobil dengan meluruskan ban depan dengan ban bagian belakang.\n Dalam prosesnya, spooring mencakup camber, caster, toe angle (toe-in atau toe-out), dan turning radius.\nFungsi spooring untuk menjaga kestabilan kendaraan, diantaranya kemudi menjadi ringan,\n menimbulkan gaya putar kembali setelah belok dan mencegah kendaraan belok sendiri saat kemudi dilepas, lalu mengurangi keausan pada bagian-bagian ball-joint dan roda.\n"
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain",
+			"text": "2. Balancing\n\nBalancing berfungsi untuk menyeimbangkan kembali semua roda mobil dan memastikan apakah ban sudah seimbang pada titik pusat rodanya atau belum. \nUntuk itu, balancing umumnya dilakukan sesudah proses penggantian ban atau pelek. Dengan tujuan, agar saat mobil dipakai, ban dalam kondisi terbaik dan putaran roda mobil pun bisa berputar dengan baik."
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "know",
+			"text": "Keuntungan melakukan spooring antara lain.\n[br] 1.mobil menjadi stabil dan nyaman dalam berkendara.  [br] 2.Mencegah keausan ban yang tidak merata. [[br] 3.Menghemat bahan bakar.\n 4.Menghemat pemakaian ban. [br]  5.Mencegah kerusakan-kerusakan antar sambungan kemudi sehingga memperpanjang waktu pemakaian."
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Selamat, kamu telah menyelesaikan materi komponen sporing, kerjakan latihan soal untuk ke latihan selanjutnya"
+		},
+		{
+			"choice": "lanjut ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_scene": "res://src/scene/Chapter2/tanya_spooring.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1652092259.json",
+		"name": "spooring"
+	}
+}

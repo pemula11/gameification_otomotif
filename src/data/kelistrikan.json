@@ -1,0 +1,65 @@
+[
+    {
+        "name"  : "tegangan",
+        "text"  : " tegangan \\n Listrik akan dapat mengalir jika ada perbedaan ketinggian ( head ) sehingga terjadi perbedaan tekanan ( potensial ). Perbedaan tekanan ini dalam listrik disebut voltase/tegangan. ",
+        "image" : ""
+        
+    },
+    {
+        "name" : "tegangan",
+        "text" : "Satuan tegangan listrik dinyatakan dengan volt (V).1 Volt artinya, tegangan listrik yang dapat mengalirkan arus sebesar 1A pada konduktor dengan tahanan 1 Ohm        ",
+        "image" : ""
+    },
+        
+    {
+        "name" : "arus", 
+        "text" : "Arus listrik adalah laju aliran muatan listrik melewati suatu titikatau bagian. Arus listrik dikatakan ada ketika ada aliran bersih muatan listrik melalui suatu bagian.         ",
+        "image" : "arus.PNG"
+    },
+    {
+        "name" : "arus",
+         "text" : "Arus akan Mengalir dari positif ( + ) ke negatif ( - ) \\n   sedangkan Elektron Mengalir dari negatif ( - ) ke positif ( + )"
+         ,"image" : ""
+        },
+    {
+        "name" : "arus", 
+        "text" : " Arus listrik dinyatakan dengan “I “ ( intensity) \\n Besar arus dinyatakan dengan “A “ ( ampere ) \n 1 ampere ( A ) = pergerakan"
+        ,"image" : ""
+    },
+    {
+        "name" : "tahanan", 
+        "text" : "tahanan listrik adalah Derajat kesulitan dari arus listrik ( elektron – elektron ) mengalir melalui suatu benda  \n Tahanan listrik dinyatakan dalam “ R “ dengan satuan ohm"
+        ,"image" : "tahanan.PNG"
+    },
+    {
+        "name" : "sirkuit", 
+        "text" : "merupakan sambungan dari beberapa komponen kelistrikan, dari sumber listrik, saklar, elemen listrik pasif, beban kelistrikan yang semua komponen tersebut dihubungkan dengan komponen penghantar kelistrikan."
+        ,"image" : "sirkuit.PNG"
+    },
+    {
+        "name" : "sirkuit", 
+        "text" : "a. rangkaian seri \\ Pada rangkaian kelistrikan seri, rangkaian kelistrikan tersebut disusun secara berurutan ."
+        ,"image" : "rangkaian seri.PNG"
+    },
+    {
+        "name" : "sirkuit", 
+        "text" : "Karakteristiknya : \\• Tahanan total selalu lebih besar dari nilai tahanan terbesar dalam rangkaian tersebut. \\ • Arus yang mengalir pada setiap tahanan sama \\ • Besarnya tegangan sumber sama dengan jumlah dari seluruh   tegangan jatuh (voltage drop)"
+        ,"image" : "rangkaian seri.PNG"
+    },
+    {
+        "name" : "sirkuit", 
+        "text" : "b. rangkaian paralel \\ Pada rangkaian kelistrikan paralel, rangkaian kelistrikan tersebut disusun secara bercabang atau sejajar."
+        ,"image" : "rangkaian paralel.PNG"
+    },
+    {
+        "name" : "sirkuit", 
+        "text" : "Karakteristiknya : \\• Nilai total tahanan kombinasi selalu lebih kecil dari nilai tahanan terkecil dalam rangkaian tersebut. \\ • Besarnya tegangan pada setiap tahanan dalam rangkaian adalah sama \\ • Arus total yang mengalir dalam rangkaian, adalah penjumlahan dari arus - arus yang melewati tiap - tiap tahanan"
+        ,"image" : "rangkaian paralel.PNG"
+    },
+    {
+        "name" : "sirkuit", 
+        "text" : "C. Rangkaian gabungan \\ Pada rangkaian kelistrikan gabungan atau campuran, di dalam rangkaian kelistrikan tersebut menggabungkan antara kedua rangkaian listrik seri dan paralel."
+        ,"image" : "seri paralel.PNG"
+    }
+
+]

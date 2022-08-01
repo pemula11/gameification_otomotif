@@ -1,0 +1,128 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://src/UI/btnklik.tscn" type="PackedScene" id=1]
+[ext_resource path="res://addons/dialogic/Example Assets/Fonts/Overlock/Overlock-Bold.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://asset/UI/PNG/Button16.png" type="Texture" id=3]
+[ext_resource path="res://asset/UI/PNG/Button14.png" type="Texture" id=4]
+[ext_resource path="res://asset/UI/PNG/Button15.png" type="Texture" id=5]
+[ext_resource path="res://asset/UI/PNG/MainPanel03.png" type="Texture" id=6]
+[ext_resource path="res://src/UI/popup_done.gd" type="Script" id=7]
+
+[sub_resource type="DynamicFont" id=4]
+size = 30
+font_data = ExtResource( 2 )
+
+[sub_resource type="Theme" id=5]
+default_font = SubResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=6]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 302, 143 )
+
+[sub_resource type="Animation" id=1]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "fade_in"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ), Vector2( 1, 1 ) ]
+}
+tracks/1/type = "method"
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"values": [  ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "fade_out"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 0, 0 ) ]
+}
+
+[sub_resource type="StyleBoxTexture" id=7]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 165, 21 )
+
+[sub_resource type="StyleBoxTexture" id=8]
+texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 105, 21 )
+
+[sub_resource type="StyleBoxTexture" id=9]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 165, 21 )
+
+[node name="popup_done" type="Node2D"]
+visible = false
+script = ExtResource( 7 )
+
+[node name="popup" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Panel" type="Panel" parent="popup"]
+margin_right = 522.0
+margin_bottom = 400.0
+rect_pivot_offset = Vector2( 165, 126 )
+theme = SubResource( 5 )
+custom_styles/panel = SubResource( 6 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="popup/Panel"]
+margin_left = 32.0
+margin_top = 65.0
+margin_right = 489.0
+margin_bottom = 239.0
+text = "Kamu telah menyelesaikan materi ini, silahkan lanjut ke materi berikutnya"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="popup/Panel"]
+anims/RESET = SubResource( 1 )
+anims/fade_in = SubResource( 2 )
+anims/fade_out = SubResource( 3 )
+
+[node name="Button" parent="popup/Panel" instance=ExtResource( 1 )]
+margin_left = 181.0
+margin_top = 291.0
+margin_right = 345.0
+margin_bottom = 352.0
+custom_styles/hover = SubResource( 7 )
+custom_styles/pressed = SubResource( 8 )
+custom_styles/normal = SubResource( 9 )
+
+[connection signal="pressed" from="popup/Panel/Button" to="." method="_on_Button_pressed"]

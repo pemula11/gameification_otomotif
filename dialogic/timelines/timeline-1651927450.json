@@ -1,0 +1,170 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "Def",
+			"text": "Sistem pengapian berfungsi untuk mensuplai listrik tegangan tinggi yang diloncatkan dari busi untuk membakar campuran bahan bakar dan udara di ruang bakar.\n Sistem pengapian dibagi menjadi 2 bagian besar, yaitu sistem pengapian konventional dan sistem pengapian elektrik.\ndalam jenisnya Sistem pengapian konventional (sistem platina)  terbagi menjadi 2 macam yaitu sistim magnet dan sistem baterai.\n Sistem pengapian elektrik juga terbagi menjadi 2 macam, yaitu sistem magnet dan sistem baterai.\n"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "pertanyaan"
+		},
+		{
+			"character": "character-1650718799.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": " Komponen-komponen sistem pengapian antara lain :"
+		},
+		{
+			"choice": "Lanjut ke latihan",
+			"condition": ">=",
+			"definition": "1652095259-833",
+			"event_id": "dialogic_011",
+			"value": "3"
+		},
+		{
+			"change_scene": "",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": "ALTERNATOR",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain2",
+			"text": "Dikenal pula dengan sebutan generator AC, yaitu suatu alat yang dapat menghasilkan tegangan AC.\nprinsip kerjanya yaitu dengan Sebuah magnet yang digerakkan melintasi kumparan, maka akan timbul garis gaya magnet di sekitar kumparan.\n Apabila magnet telah melintasi kumparan, maka garis gaya medan magnet di sekitar kumparan hilang.\n Akibat berubah-ubahnya garis gaya medan magnet, maka akan dihasilkan tegangan induksi pada kumparan yang Besarnya tergantung :\n- Kecepatan gerakan magnet \\n - Besarnya medan magnet \\n -Jumlah gulungan"
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "know",
+			"text": "Alternator terdiri atas :\nRotor : Bagian bergerak yang mengandung magnet\nStator : Bagian diam, yang terdiri atas kumparan-kumparan yaitu spull dan pick up (pemicu tegangan)\nPick up : Adalah kumparan kecil sebagai penghasil tegangan (kecil) sebagai pemicu CDI untuk melepaskan tegangan ke coil."
+		},
+		{
+			"definition": "1652095259-833",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "cdi",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain2",
+			"text": "CDI menjadi komponen vital dalam sistem pengapian kendaraan bermotor roda dua. \nSecara umum, pembakaran sempurna pada motor bisa terjadi apabila percikan api yang dihasilkan oleh busi terintegrasi melalui CDI terlebih dahulu.\nApabila dilihat dari bentuk fisiknya, bentuknya simpel dan tepat digunakan pada mesin sepeda motor yang ruangnya tidak luas.\n Pengertian dari CDI sendiri adalah rangkaian sistem pengapian di mesin, baik itu motor maupun mobil.\nArus listrik tegangan tinggi akan dialirkan dan menciptakan induksi dalam sebuah ignition coil. \nCDI akan bekerja untuk mengatur kapan waktunya percikan api dari busi bisa digunakan pada bahan bakar yang telah dipadatkan piston.\nFungsi CDI motor besar pengaruhnya pada sistem pengapian mesin motor dan mempengaruhi performanya. \nKarena pengapian yang diciptakan mampu membakar bahan bakar dengan baik, maka panas yang dihasilkan oleh mesin akan maksimal.\nPanas yang dihasilkan oleh mesin akan membuat kinerja motor jadi optimal. Karena pembakaran yang terjadi akan menciptakan perubahan kimia menjadi panas yang diubah lagi menjadi energi gerak pada motor.\nJadi fungsi CDI bukan hanya untuk menyalakan kendaraan saja, tetapi juga untuk menjaga gerak atau laju motor.\n Jenis CDI yang tepat dipasang padamotor akan mempengaruhi laju motor sehingga harus menggunakan komponen yang berkualitas."
+		},
+		{
+			"definition": "1652095259-833",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "COIL",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650550717.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Koil pada motor sendiri memiliki tugas untuk menyuplai arus menuju busi. Meskipun memiliki bentuk yang kecil, namun jika komponen ini tidak ada atau rusak maka motor tidak dapat menyala\nFUNGSI COIL yaiut untuk Meningkatkan tegangan listrik dari sumber tegangan baik dari accu \nmaupun dari alternator sampai mencapai tegangan lebih dari 10.000 V, sehingga mampu membentuk loncatan api di busi.\nDi dalam coil terdapat 2 kumparan, yaitu :\n1. Kumparan Primer dengan Diameter kawat lebih besar, lilitan lebih sedikit\n2. Kumparan Sekunder dengan Diameter kawat lebih kecil, lilitan lebih banyak."
+		},
+		{
+			"definition": "1652095259-833",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Busi",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Busi termasuk komponen penting karena memiliki fungsi untuk mengubah tegangan listrik yang disalurkan oleh koil lalu menjadi percikan api yang akan membakar campuran bahan bakar dan udara di ruang mesin api di akhir langkah kompresi. Jika busi mengalami kerusakan maka akan mengakibatkan sistem perapian tidak akan bekerja secara sempurna.\nDalam aplikasinya busi akan memberikan informasi banyak hal dari kondisi sepeda motor:\n1. Busi berwarna merah bata : Kondisi mixer bahan bakar + udara, pengapian normal.\n2. Busi berwarna hitam kering : Terjadi campuran kaya, dan tidak terjadi kebocoran dalam sistem kompresi\n3. Busi berwarna hitam basah oli : Terjadi campuran kaya, dan terjadi kebocoran kompresi\n4. Busi berwarna putih : Terjadi campuran miskin"
+		},
+		{
+			"definition": "1652095259-833",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1651927450.json",
+		"name": "pengapian"
+	}
+}

@@ -1,0 +1,28 @@
+[
+    {
+        "name" : "NPC",
+        "text" : "Hallo orang asing"
+        
+    },
+    {
+        "name" : "Player",
+        "text" : "lorem ipsum dot sinandopardwwf lorem ipsum dot sinandopardwwf lorem ipsum dot sinandopardwwf lorem ipsum dot sinandopardwwf lorem ipsum dot  lorem ipsum dot sinandopardwwf lorem ipsum dot lorem ipsum dot sinandopardwwf lorem ipsum dot lorem ipsum dot sinandopardwwf lorem ipsum dot lorem ipsum dot sinandopardwwf lorem ipsum dot lorem ipsum dot sinandopardwwf lorem ipsum dot lorem ipsum dot sinandopardwwf lorem ipsum dot ",
+        "option" : [
+            {"text" : "siapa ya", "jawaban" : "benar"},
+            {"text" : "entah"}
+                    ]
+    },
+        
+    {
+        "name" : "NPC", 
+        "text" : "perkenalkan, aku NPC"
+    },
+    {
+        "name" : "NPC",
+         "text" : "apa tujuanmu kesini"
+        },
+    {
+        "name" : "Player", 
+        "text" : "aku sedang berlatih"
+    }
+]

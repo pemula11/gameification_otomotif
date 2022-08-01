@@ -1,0 +1,13 @@
+
+   { "datar" :  
+    [ {"pertanyaan" : "hukum yang menyatakan bahwa besar arus listrik yang mengalir berbanding lurus dengan tegangan", "jawaban" : "ohm"},
+    {"pertanyaan" : "Derajat kesulitan dari arus listrik ( elektron – elektron ) mengalir melalui suatu benda", "jawaban" : "tahanan"},
+    {"pertanyaan" : "laju aliran muatan listrik melewati suatu titik atau bagian", "jawaban" : "arus"} ],
+  "turun" : 
+  [ {"pertanyaan" : "tegangan", "jawaban" : "voltage"},
+   {"pertanyaan" : "satuan besar arus", "jawaban" : "ampere"},
+   {"pertanyaan" : "rangkaian kelistrikan disusun secara bercabang atau sejajar.", "jawaban" : "paralel"} ]
+   }
+
+
+

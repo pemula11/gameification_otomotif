@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://asset/Colored Square Buttons/Back col_Square Button.png" type="Texture" id=1]
+[ext_resource path="res://src/button/Back.gd" type="Script" id=2]
+
+[node name="Back" type="TextureButton"]
+margin_left = 18.0
+margin_top = 10.0
+margin_right = 68.0
+margin_bottom = 60.0
+hint_tooltip = "Kembali"
+mouse_filter = 1
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 1 )
+texture_hover = ExtResource( 1 )
+texture_focused = ExtResource( 1 )
+expand = true
+script = ExtResource( 2 )
+
+[connection signal="pressed" from="." to="." method="_on_Back_pressed"]

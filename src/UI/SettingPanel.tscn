@@ -1,0 +1,216 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://asset/UI/PNG/MainPanel03.png" type="Texture" id=1]
+[ext_resource path="res://asset/UI/PNG/Button16.png" type="Texture" id=2]
+[ext_resource path="res://asset/Colored Square Buttons/X col_Square Button.png" type="Texture" id=3]
+[ext_resource path="res://src/UI/SettingPanel.gd" type="Script" id=4]
+[ext_resource path="res://asset/font/ui_theme.tres" type="Theme" id=5]
+
+[node name="SettingPanel" type="NinePatchRect"]
+margin_right = 621.0
+margin_bottom = 453.0
+rect_pivot_offset = Vector2( -800, 419 )
+texture = ExtResource( 1 )
+script = ExtResource( 4 )
+speed_slider = NodePath("VBoxContainer/NinePatchRect2/slider")
+fullscreen_check = NodePath("VBoxContainer/NinePatchRect3/CheckBox")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 68.0
+margin_top = 94.0
+margin_right = 570.0
+margin_bottom = 426.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="VBoxContainer"]
+margin_right = 502.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 250, 80 )
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="VBoxContainer/NinePatchRect2"]
+anchor_right = 1.0
+margin_left = 4.0
+margin_top = 10.0
+margin_right = 4.0
+margin_bottom = 24.0
+text = "Text Speed"
+align = 1
+valign = 1
+
+[node name="slider" type="HSlider" parent="VBoxContainer/NinePatchRect2"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -153.0
+margin_top = -11.0
+margin_right = 2.0
+margin_bottom = 13.0
+rect_scale = Vector2( 2, 2 )
+min_value = 0.01
+max_value = 0.1
+step = 0.01
+value = 0.02
+
+[node name="Label" type="Label" parent="VBoxContainer/NinePatchRect2/slider"]
+margin_left = -30.0
+margin_top = 3.5
+margin_right = 4.0
+margin_bottom = 31.5
+rect_scale = Vector2( 0.5, 0.5 )
+theme = ExtResource( 5 )
+text = "min"
+
+[node name="Label2" type="Label" parent="VBoxContainer/NinePatchRect2/slider"]
+margin_left = 165.5
+margin_top = 4.0
+margin_right = 199.5
+margin_bottom = 32.0
+rect_scale = Vector2( 0.5, 0.5 )
+theme = ExtResource( 5 )
+text = "max"
+
+[node name="backgroundMusic" type="NinePatchRect" parent="VBoxContainer"]
+margin_top = 84.0
+margin_right = 502.0
+margin_bottom = 164.0
+rect_min_size = Vector2( 250, 80 )
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="VBoxContainer/backgroundMusic"]
+anchor_right = 1.0
+margin_left = 4.0
+margin_top = 10.0
+margin_right = 4.0
+margin_bottom = 24.0
+text = "Volume backgroud"
+align = 1
+valign = 1
+
+[node name="slider" type="HSlider" parent="VBoxContainer/backgroundMusic"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -153.0
+margin_top = -11.0
+margin_right = 2.0
+margin_bottom = 13.0
+rect_scale = Vector2( 2, 2 )
+min_value = -80.0
+max_value = 6.0
+step = 5.0
+
+[node name="Label" type="Label" parent="VBoxContainer/backgroundMusic/slider"]
+margin_left = -30.0
+margin_top = 3.5
+margin_right = 4.0
+margin_bottom = 31.5
+rect_scale = Vector2( 0.5, 0.5 )
+theme = ExtResource( 5 )
+text = "min"
+
+[node name="Label2" type="Label" parent="VBoxContainer/backgroundMusic/slider"]
+margin_left = 165.5
+margin_top = 4.0
+margin_right = 199.5
+margin_bottom = 32.0
+rect_scale = Vector2( 0.5, 0.5 )
+theme = ExtResource( 5 )
+text = "max"
+
+[node name="sfxmusic" type="NinePatchRect" parent="VBoxContainer"]
+margin_top = 168.0
+margin_right = 502.0
+margin_bottom = 248.0
+rect_min_size = Vector2( 250, 80 )
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="VBoxContainer/sfxmusic"]
+anchor_right = 1.0
+margin_left = 4.0
+margin_top = 10.0
+margin_right = 4.0
+margin_bottom = 24.0
+text = "Volume Sfx"
+align = 1
+valign = 1
+
+[node name="slider" type="HSlider" parent="VBoxContainer/sfxmusic"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -153.0
+margin_top = -11.0
+margin_right = 2.0
+margin_bottom = 13.0
+rect_scale = Vector2( 2, 2 )
+min_value = -80.0
+max_value = 6.0
+step = 5.0
+
+[node name="Label" type="Label" parent="VBoxContainer/sfxmusic/slider"]
+margin_left = -30.0
+margin_top = 3.5
+margin_right = 4.0
+margin_bottom = 31.5
+rect_scale = Vector2( 0.5, 0.5 )
+theme = ExtResource( 5 )
+text = "min"
+
+[node name="Label2" type="Label" parent="VBoxContainer/sfxmusic/slider"]
+margin_left = 165.5
+margin_top = 4.0
+margin_right = 199.5
+margin_bottom = 32.0
+rect_scale = Vector2( 0.5, 0.5 )
+theme = ExtResource( 5 )
+text = "max"
+
+[node name="NinePatchRect3" type="NinePatchRect" parent="VBoxContainer"]
+margin_top = 252.0
+margin_right = 502.0
+margin_bottom = 332.0
+rect_min_size = Vector2( 250, 80 )
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="VBoxContainer/NinePatchRect3"]
+anchor_right = 1.0
+margin_left = 4.0
+margin_top = 10.0
+margin_right = 4.0
+margin_bottom = 24.0
+text = "FULLSCREEN"
+align = 1
+valign = 1
+
+[node name="CheckBox" type="CheckBox" parent="VBoxContainer/NinePatchRect3"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -26.0
+margin_top = -11.0
+margin_right = -2.0
+margin_bottom = 13.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="closeBTN" type="TextureButton" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -57.0
+margin_top = 4.0
+margin_right = -7.0
+margin_bottom = 54.0
+texture_normal = ExtResource( 3 )
+expand = true
+
+[connection signal="gui_input" from="VBoxContainer/NinePatchRect2/slider" to="." method="_on_slider_gui_input"]
+[connection signal="value_changed" from="VBoxContainer/backgroundMusic/slider" to="." method="_on_slider_bg_snd_value_changed"]
+[connection signal="value_changed" from="VBoxContainer/sfxmusic/slider" to="." method="_on_slider_sfx_value_changed"]
+[connection signal="toggled" from="VBoxContainer/NinePatchRect3/CheckBox" to="." method="_on_CheckBox_toggled"]
+[connection signal="pressed" from="closeBTN" to="." method="_on_closeBTN_pressed"]

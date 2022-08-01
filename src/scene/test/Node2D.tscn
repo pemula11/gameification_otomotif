@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://src/scene/test/drag.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/scene/test/Drop_zone.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/scene/test/Item_manager.gd" type="Script" id=3]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Item_manager" type="Node2D" parent="."]
+
+[node name="Drop_zone" parent="Item_manager" instance=ExtResource( 2 )]
+position = Vector2( 362, 271 )
+grup = "benar"
+
+[node name="Drop_zone4" parent="Item_manager" instance=ExtResource( 2 )]
+position = Vector2( 471, 89 )
+grup = "benar"
+
+[node name="Drop_zone2" parent="Item_manager" instance=ExtResource( 2 )]
+position = Vector2( 752, 173 )
+grup = "salah"
+
+[node name="Drop_zone3" parent="Item_manager" instance=ExtResource( 2 )]
+position = Vector2( 723, 378 )
+grup = "salah"
+
+[node name="drag" parent="." instance=ExtResource( 1 )]
+position = Vector2( 425, 538 )
+grup = "benar"
+
+[node name="drag2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 610, 545 )
+grup = "salah"
+
+[node name="Sprite" parent="drag2" index="0"]
+text = "slah text"
+
+[node name="drag3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 283, 541 )
+grup = "benar"
+
+[node name="Button" type="Button" parent="."]
+margin_left = 816.0
+margin_top = 519.0
+margin_right = 994.0
+margin_bottom = 562.0
+text = "CEK"
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+
+[editable path="drag2"]

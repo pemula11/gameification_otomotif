@@ -1,0 +1,36 @@
+[
+    {
+        "name"  : "Ladder Frame",
+        "text"  : "Ladder frame adalah chassis yang memiliki bentuk seperti tangga. Walau bentuknya unik, tapi chassis ini cocok menjadi dasar kedudukan bodi mobil, mesin, dan komponen lainnya.",
+        "image" : "ladder_frame.PNG"
+        
+    },
+    {
+        "name"  : "Ladder Frame",
+        "text"  : "Chassis ini terbuat dari baja simetris berbentuk balok yang ada di beberapa bagian tertentu. Kemudian diperkuat dengan menambahkan joint serta crossmember. Chassis ini digunakan pada mobil SUV, seperti Toyota New Fortuner.",
+        "image" : ""
+        
+    },
+    {
+        "name" : "Monocoque Chassis",
+        "text" : "Monocoque chassis adalah chassis yang dibuat menyatu dengan bodi mobil. Bagian terluar bodi mobil yang termasuk dari bagian chassis ini berfungsi sebagai kerangka yang mampu melindungi ruang kabin dari benturan.",
+        "image" : "monokok.PNG"
+    },
+    {
+        "name" : " Backbone Chassis",
+        "text" : "Backbone chassis adalah chassis yang memiliki bentuk seperti tulang rangka utama tunggal. Posisinya melintang sepanjang bagian tengah mobil. Hal ini membuat bagian depan dan belakang mobil saling terhubung. Backbone chassis juga bisa disebut sebagai chassis tunggal.",
+        "image" : "backbone.PNG"
+    },
+    {
+        "name" : "Tubular Space Frame",
+        "text" : "Tubular space frame adalah chassis yang merupakan pipa baja dirangkai dan dibentuk sehingga langsung membentuk mobil sesuai konstruksi. Kekuatan chassis ini sangat tergantung dari mutu serta kualitas sambungan las tiap sendiri.",
+        "image" : "turbular.PNG"
+    },
+    {
+        "name" : "Aluminium Space Frame",
+        "text" : "Aluminium space frame adalah chassis yang dibuat seperti monocoque tapi menggunakan bahan aluminium. Sebaliknya, monocoque chassis menggunakan lembaran plat baja.",
+        "image" : "alumunium.PNG"
+    }
+    
+
+]

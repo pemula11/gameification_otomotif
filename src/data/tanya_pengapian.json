@@ -1,0 +1,33 @@
+[
+    {
+        "name" : "Pertanyaan 1",
+        "text" : "mensuplai listrik tegangan tinggi yang diloncatkan dari busi untuk membakar campuran bahan bakar dan udara di ruang bakar, merupakan pengertian dari",
+        "option" : [
+            {"text" : "sistem injeksi","jawaban" : ""},
+            {"text" : "sistem bahan bakar","jawaban" : ""},
+            {"text" : "sistem kelistrikan","jawaban" : ""},
+            {"text" : "sistem pengapian", "jawaban" : "benar"}
+            
+                    ]
+    },
+    {
+        "name" : "Pertanyaan 2",
+        "text" : "fungsi dari busi adalah  ",
+        "option" : [
+            {"text" : "Meningkatkan tegangan listrik dari sumber tegangan","jawaban" : ""},
+            {"text" : "menghasilkan percikan bunga api listrik ","jawaban" : "benar"},
+            {"text" : "menghasilkan tegangan listrik", "jawaban" : ""},
+            {"text" : "menyuplai arus menuju busi","jawaban" : ""}
+                    ]
+    },
+    {
+        "name" : "Pertanyaan 3",
+        "text" : "yang bukan bagian dari ALTERNATOR ",
+        "option" : [
+            {"text" : "elektron", "jawaban" : "benar"},
+            {"text" : "rotor","jawaban" : ""},
+            {"text" : "stator","jawaban" : ""},
+            {"text" : "pick up","jawaban" : ""}
+                    ]
+    }
+]

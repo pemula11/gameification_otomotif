@@ -1,0 +1,13 @@
+
+   { "datar" :  
+    [ {"pertanyaan" : "Bagian diam, yang terdiri atas kumparan-kumparan yaitu spull dan pick up", "jawaban" : "stator"},
+    {"pertanyaan" : "Sistem pengapian konventional sebagai kontak pemutus", "jawaban" : "platina"},
+    {"pertanyaan" : "Bagian bergerak yang mengandung magnet", "jawaban" : "rotor"} ],
+  "turun" : 
+  [ {"pertanyaan" : "sumber energi mengubah energi kimia menjadi listrik", "jawaban" : "baterai"},
+   {"pertanyaan" : "memiliki tugas untuk menyuplai arus menuju busi.", "jawaban" : "koil"},
+   {"pertanyaan" : "kumparan dengan Diameter kawat lebih kecil, lilitan lebih banyak..", "jawaban" : "skunder"} ]
+   }
+
+
+

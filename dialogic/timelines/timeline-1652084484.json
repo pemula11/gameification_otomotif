@@ -1,0 +1,94 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Def",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "explain2",
+			"text": "Chassis adalah rangka internal untuk menjadi dasar produksi objek yang kemudian disatukan dengan mesin serta alat elektronik lainnya.  \nBiasanya, sasis sangat identik dengan mobil karena memiliki fungsi penting.\nChassis terbuat dari kerangka besi atau baja yang didesain khusus untuk memenuhi semua aspek. Dimulai dari aspek kemampuan, ketahanan, hingga keamanan untuk menjaga kondisi berkendara.\nFungsi chassis pada mobil untuk menjadi penopang beban kendaraan, mesin, transmisi, semua komponen, hingga penumpang juga."
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "know",
+			"text": "Selain itu, fungsi sasis lainnya adalah mempertahankan bentuk mobil supaya tetap kaku dan tidak mengalami deformasi ketika digunakan. \nMaterial yang digunakan tentu saja harus memiliki kekuatan yang mampu menahan seluruh beban mobil ini."
+		},
+		{
+			"character": "character-1650718799.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "thinking",
+			"question": "pada chasis, terdapat komponen apa saja?"
+		},
+		{
+			"choice": "komponen chasis",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "Def",
+			"text": "    1. Kopling\nKomponen kopling ini memiliki fungsi sebagai penghubung serta pemutus putaran mesin ke transmisi. \nDengan demikian proses pemindahan pada gigi akan lebih halus. Kopling terdiri dari dua logam yang berputar.\n    2. Transmisi\nTransmisi disini berfungsi untuk memanipulasi putaran pada output mesin. Hal ini dapat dirasakan ketika Anda dalam kondisi dimana kendaraan memerlukan\n torsi besar serta kondisi yang memungkinkan mobil untuk memiliki kecepatan tinggi. Disaat mengatur perpindahan gigi, disitulah transisi digunakan.\n    3. Gardan\nKomponen dari chasis mobil selanjutnya yaitu Gardan. Garden atau diferensial berfungsi untuk membedakan antara putaran roda kanan serta roda kiri pada mobil. \nJika dalam putaran roda tidak dibedakan, maka akan terjadi selip pada roda yang menyebabkan keausan."
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "4. Poros Propeller\nPoros propeller atau shaft propeller yaitu penghubung antara putaran transmisi pada bagian depan mobil dan di bagian belakang ada axle. \nBiasanya poros propeller terdapat pada kendaraan dengan penggerak FR atau 4WD.\n    5. Rear Axle\nRear axle yaitu poros yang berbentuk batangan. Komponen ini dapat menghubungkan gardan dengan poros roda. Umumnya komponen ini terdapat dua macam,\nyaitu tipe rigid axle dan independent axle.\n    6. Pegas\nKomponen lainnya yaitu pegas. Pegas berfungsi untuk meredam getaran ketika berjalan dengan memberikan rasa enteng namun lembut \nketika roda melewati sebuah lubang atau gundukan polisi tidur."
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "    7. Universal Joint\nKomponen chasis mobil selanjutnya yaitu universal joint, atau penghubung antara momen puntir dari sudut dan arah dari manapun yang didesain secara fleksibel.\n Umumnya, komponen ini terletak di bagian belakang transmisi dan di depan garden.\n    8. Shock Absorber\nShock absorber atau biasa disebut dengan shock breaker memiliki fungsi untuk mencegah guncangan pada sistem suspensi dengan \ncara menahan guncangan melalui mekanisme fluida. Namun, shock absorber ini tidak memiliki daya tahan pada tekanan.\n    9. Stabilizer Bar\nKomponen sasis yang satu ini berfungsi untuk menahan rolling ketika roda terguncang karena melewati lubang atau gundukan polisi tidur.\n Hal tersebut rolling yang awalnya terasa begitu besar dapat dikurangi oleh stabilizer bar. Komponen ini terdiri dari swing bar dan link stabilizer."
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " 10. Sistem Steering\nSistem steering berfungsi sebagai pengendali arah roda depan, serta mengurangi gaya kemudi,\n sehingga terasa lebih ringan ketika memutar roda pada pengemudi. Biasanya komponen ini memiliki dua macam, yaitu tipe hidrolik dan tipe elektrik.\n    11. Sistem Pengereman\nKomponen ini berfungsi untuk mengurangi kecepatan laju mobil. Umumnya terdapat dua jenis rem, yaitu rem tromol dan rem cakram.\n Sistem pengereman ini menggunakan gaya gesek yang dapat diubah dari energi pada putaran roda menjadi energy panas. \n    12. Roda dan Ban\nKomponen chasis mobil yang terakhir yaitu roda. Roda berfungsi sebagai pengkonversi putaran pada power train untuk menjalankan mobil.\n Serta ban yang berfungsi sebagai penyerap getaran pada saat mobil berjalan agar tidak terjadi selip."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1650611800.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Selamat, kamu telah menyelesaikan materi komponen chasis, silahkan lanjutkan untuk materi berikutnya"
+		},
+		{
+			"change_scene": "res://src/scene/Chapter2/tanya_sasis.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1652084484.json",
+		"name": "chassis"
+	}
+}

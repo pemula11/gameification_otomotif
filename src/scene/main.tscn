@@ -1,0 +1,334 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://asset/UI/The Midnight Background.png" type="Texture" id=1]
+[ext_resource path="res://src/UI/BTNStage.tscn" type="PackedScene" id=2]
+[ext_resource path="res://asset/UI/Color 5/Panel 1.png" type="Texture" id=3]
+[ext_resource path="res://asset/UI/PNG/Button02.png" type="Texture" id=4]
+[ext_resource path="res://src/scene/main.gd" type="Script" id=5]
+[ext_resource path="res://asset/UI/Trees.png" type="Texture" id=6]
+[ext_resource path="res://asset/UI/Sky.png" type="Texture" id=7]
+[ext_resource path="res://asset/UI/Stars.png" type="Texture" id=8]
+[ext_resource path="res://src/scene/Chapter1/explain/Explain_kelistrikan.tscn" type="PackedScene" id=9]
+[ext_resource path="res://src/scene/Chapter1/explain/Explain_silinder.tscn" type="PackedScene" id=10]
+[ext_resource path="res://src/scene/Chapter1/explain/Explain_pengapian.tscn" type="PackedScene" id=11]
+[ext_resource path="res://src/scene/Chapter1/explain/Explain_bahanbakar.tscn" type="PackedScene" id=12]
+
+[sub_resource type="StyleBoxTexture" id=1]
+texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 56, 58 )
+
+[sub_resource type="StyleBoxTexture" id=2]
+texture = ExtResource( 4 )
+normal_map = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 56, 58 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 5 )
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="ParallaxBackground"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="TextureRect" type="TextureRect" parent="ParallaxBackground/ParallaxLayer"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -3.0
+margin_right = 1038.0
+margin_bottom = 603.0
+texture = ExtResource( 7 )
+expand = true
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="TextureRect" type="TextureRect" parent="ParallaxBackground/ParallaxLayer2"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_right = 1017.0
+margin_bottom = 603.0
+texture = ExtResource( 8 )
+expand = true
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="TextureRect" type="TextureRect" parent="ParallaxBackground/ParallaxLayer3"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_right = 1035.0
+margin_bottom = 603.0
+texture = ExtResource( 6 )
+expand = true
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+visible = false
+margin_left = 292.0
+margin_top = 183.0
+margin_right = 292.0
+margin_bottom = 183.0
+texture = ExtResource( 3 )
+
+[node name="Button02" type="Button" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -164.0
+margin_top = 11.0
+margin_right = 6.0
+margin_bottom = 71.0
+custom_styles/focus = SubResource( 1 )
+custom_styles/normal = SubResource( 2 )
+text = "Tune Up Sepeda motor"
+
+[node name="Button03" type="Button" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = 54.0
+margin_top = 18.0
+margin_right = 114.0
+margin_bottom = 78.0
+custom_styles/focus = SubResource( 1 )
+custom_styles/normal = SubResource( 2 )
+text = "2"
+
+[node name="level_container" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 2.0
+margin_top = 73.0
+margin_bottom = -22.0
+
+[node name="BTNStage" parent="level_container" instance=ExtResource( 2 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -377.0
+margin_top = -66.5
+margin_right = -256.0
+margin_bottom = -27.5
+text = "Introducing"
+
+[node name="BTNStage2" parent="level_container" instance=ExtResource( 2 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -173.0
+margin_top = -66.5
+margin_right = -52.0
+margin_bottom = -27.5
+text = "K3"
+levelId = 1.0
+
+[node name="ProgressBar3" type="ColorRect" parent="level_container/BTNStage2"]
+margin_left = -78.0
+margin_top = 17.0
+margin_right = -4.0
+margin_bottom = 19.0
+rect_rotation = 0.305965
+
+[node name="BTNStage3" parent="level_container" instance=ExtResource( 2 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 62.0
+margin_top = -137.5
+margin_right = 183.0
+margin_bottom = -98.5
+text = "Kelistrikan"
+levelId = 2.0
+tujuanStage = ExtResource( 9 )
+
+[node name="ProgressBar2" type="ColorRect" parent="level_container/BTNStage3"]
+margin_left = -111.43
+margin_top = 90.496
+margin_right = 15.57
+margin_bottom = 91.496
+rect_rotation = -29.9978
+
+[node name="BTNStage11" parent="level_container" instance=ExtResource( 2 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 110.0
+margin_top = 22.5
+margin_right = 256.0
+margin_bottom = 61.5
+text = "Komponen Kelistrikan"
+levelId = 2.0
+tujuanStage = ExtResource( 9 )
+
+[node name="ProgressBar2" type="ColorRect" parent="level_container/BTNStage11"]
+margin_left = 14.0
+margin_top = -121.0
+margin_right = 136.0
+margin_bottom = -120.0
+rect_rotation = 74.2152
+
+[node name="BTNStage7" parent="level_container" instance=ExtResource( 2 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 550.0
+margin_top = -73.5
+margin_right = 693.0
+margin_bottom = -27.5
+text = "Sistem Pengapian "
+levelId = 3.0
+tujuanStage = ExtResource( 11 )
+
+[node name="ProgressBar2" type="ColorRect" parent="level_container/BTNStage7"]
+margin_left = -108.0
+margin_top = -20.0
+margin_right = 19.0
+margin_bottom = -19.0
+rect_rotation = 21.6635
+rect_scale = Vector2( 0.941004, -0.790586 )
+
+[node name="BTNStage8" parent="level_container" instance=ExtResource( 2 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 325.0
+margin_top = -116.5
+margin_right = 446.0
+margin_bottom = -77.5
+text = "Kepala Silinder"
+levelId = 4.0
+tujuanStage = ExtResource( 10 )
+
+[node name="ProgressBar2" type="ColorRect" parent="level_container/BTNStage8"]
+margin_left = -12.0
+margin_top = 18.0
+margin_right = 115.0
+margin_bottom = 21.0
+rect_rotation = -172.079
+
+[node name="BTNStage9" parent="level_container" instance=ExtResource( 2 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 805.0
+margin_top = -133.5
+margin_right = 960.0
+margin_bottom = -87.5
+text = "Sistem Bahan Bakar"
+levelId = 5.0
+tujuanStage = ExtResource( 12 )
+
+[node name="ProgressBar2" type="ColorRect" parent="level_container/BTNStage9"]
+margin_left = -111.43
+margin_top = 90.496
+margin_right = 15.57
+margin_bottom = 91.496
+rect_rotation = -29.9978
+
+[node name="BTNStage4" parent="level_container" instance=ExtResource( 2 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -170.0
+margin_top = 42.5
+margin_right = -49.0
+margin_bottom = 81.5
+text = "Tantangan"
+levelId = 1.0
+
+[node name="ProgressBar4" type="ColorRect" parent="level_container/BTNStage4"]
+margin_left = 59.0
+margin_top = -66.0
+margin_right = 124.0
+margin_bottom = -64.0
+rect_rotation = 90.5979
+color = Color( 0.956863, 0.0627451, 0.0627451, 0.788235 )
+
+[node name="BTNStage5" parent="level_container" instance=ExtResource( 2 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 248.0
+margin_top = -198.5
+margin_right = 369.0
+margin_bottom = -159.5
+text = "Tantangan"
+levelId = 2.0
+
+[node name="ProgressBar5" type="ColorRect" parent="level_container/BTNStage5"]
+margin_left = -10.0
+margin_top = 39.0
+margin_right = 55.0
+margin_bottom = 41.0
+rect_rotation = 159.798
+color = Color( 0.956863, 0.0627451, 0.0627451, 0.788235 )
+
+[node name="BTNStage6" parent="level_container" instance=ExtResource( 2 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 335.0
+margin_top = 5.5
+margin_right = 456.0
+margin_bottom = 44.5
+text = "Tantangan"
+levelId = 3.0
+
+[node name="ProgressBar6" type="ColorRect" parent="level_container/BTNStage6"]
+margin_left = 59.0
+margin_top = -72.0
+margin_right = 124.0
+margin_bottom = -70.0
+rect_rotation = 88.6219
+color = Color( 0.956863, 0.0627451, 0.0627451, 0.788235 )
+
+[node name="BTNStage10" parent="level_container" instance=ExtResource( 2 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 881.0
+margin_top = -15.5
+margin_right = 1002.0
+margin_bottom = 23.5
+text = "Tantangan"
+levelId = 5.0
+
+[node name="ProgressBar7" type="ColorRect" parent="level_container/BTNStage10"]
+margin_left = 27.0
+margin_top = -63.0
+margin_right = 92.0
+margin_bottom = -61.0
+rect_rotation = 66.8712
+color = Color( 0.956863, 0.0627451, 0.0627451, 0.788235 )
+
+[node name="HScrollBar" type="HScrollBar" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -171.0
+margin_top = -54.0
+margin_right = 125.0
+margin_bottom = -36.0
+max_value = 200.0
+page = 10.0
